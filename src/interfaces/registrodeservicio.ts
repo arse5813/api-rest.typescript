@@ -1,0 +1,31 @@
+export interface RegistrarServ {
+    idUser:string;
+    nombreConductor: string;
+    apellidoConductor: string;
+    rut: string;
+    empresa: string;
+    tractomarca: string;
+    tractomodelo: string;
+    tractopatente: string;
+    semimarca: string;
+    semimodelo: string;
+    semitipo: string;
+    tipoServicios: string;
+    cliente: string;
+    lugapresentacionPT1: string;
+    fechapresentacionPT1: Date;
+    horapresentacionPT1: Date;
+    numeroguia: string;
+    cargatipocontenedor:string;
+    carganumerocontenedor: string;
+    cargasello: string;
+    tipocontenedor: string;
+    numerocontenedor: string;
+    sello: string;
+    lugarpresetacionPT2: string;
+    fechacarga_descarga: Date;
+    horapresentacionPT2: Date;
+    fechapresentacionPT3: Date;
+    horapresentacionPT3: Date;
+    agregarvuelta: string; 
+}
